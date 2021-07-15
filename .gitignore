@@ -1,0 +1,15 @@
+#Environments
+env/
+.env
+
+__pycache__
+
+#Test Coverage 
+htmlcov/
+.coverage
+
+#Database
+db.*
+
+#Migrations
+migrations/

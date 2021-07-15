@@ -1,7 +1,6 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.views.generic import TemplateView
 
-def index(request):
-    return HttpResponse('Hello, this is your blog!')
+class Index(TemplateView):
+    template_name = "homepage/index.html"
 
 
