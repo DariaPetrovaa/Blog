@@ -1,6 +1,7 @@
 from django.test import TestCase
 from django.test import SimpleTestCase
 
+
 class SimpleTests(SimpleTestCase):
     def test_homepage_status_code(self):
         response = self.client.get('/')
